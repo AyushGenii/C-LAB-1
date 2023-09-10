@@ -8,12 +8,11 @@ printf("write b");
 scanf("%d",b);
 
 c=a;
-
 a=b;
- b=c;
+b=c;
  
- printf("\nAFTER swapping a= %d b=%d",a,b);
- return 0;
+printf("\nAFTER swapping a= %d b=%d",a,b);
+return 0;
 
 
 
