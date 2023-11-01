@@ -11,7 +11,7 @@ else if(a%100==0)
 {
 printf("It is not a leap year");
 }	
-else if("a%4==0")
+else if(a%4==0)
 {
 	printf("It is not leap year");
 }
