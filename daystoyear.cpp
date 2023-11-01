@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main(){
-float a,b;
+int a;
+float b;
 printf("Enter days\n");
 scanf("%f",&a);
 
