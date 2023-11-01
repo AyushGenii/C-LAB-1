@@ -32,16 +32,16 @@ int main() {
     printf("Percentage: %.2f%%\n", percentage);
 
     
-    if (percentage >= 90.0) {
-        printf("Grade: A+\n");
-    } else if (percentage >= 80.0) {
+    if (percentage >= 90) {
         printf("Grade: A\n");
-    } else if (percentage >= 70.0) {
+    } else if (percentage >= 80) {
         printf("Grade: B\n");
-    } else if (percentage >= 60.0) {
+    } else if (percentage >= 70) {
         printf("Grade: C\n");
-    } else if (percentage >= 40.0) {
+    } else if (percentage >= 60) {
         printf("Grade: D\n");
+    } else if (percentage >= 40) {
+        printf("Grade: E\n");
     } else {
         printf("Grade: F (Fail)\n");
     }
